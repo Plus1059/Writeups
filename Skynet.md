@@ -1,3 +1,5 @@
+[Skynet](https://tryhackme.com/room/skynet)
+
 ## Initial Recon
 The first thing we'll do is run nmap on the target. I first run a Scripts and Version scan and then an all ports scan to see if anything unusual is running on unexpected ports. The results show the box is running SSH, HTTP, SMB, POP3, and IMAP. IMAP (Internet Message Access Protocol) and POP3 (Post Office Protocol) are both services related to email. 
 ```bash
